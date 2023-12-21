@@ -1,0 +1,973 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main {
+        height: 135vh;
+    }
+
+    .hang-board {
+        width: 47%;
+        height: 89%;
+        outline: 13px solid #975A99;
+        border-radius: 32px;
+    }
+
+    .hang-stick {
+        width: 100%;
+        height: 53%;
+    }
+
+    .guessWord {
+        width: 100%;
+        height: 9%;
+    }
+
+    .keyboard {
+        width: 100%;
+        height: 30%;
+        padding: 0 22px;
+    }
+
+    .key {
+        width: 45px;
+        height: 45px;
+        font-size: 35px;
+        margin-top: 7px;
+    }
+
+    .key section {
+        width: 50px;
+        height: 4.7px;
+    }
+
+    #wordBox {
+        width: 33px;
+        height: 33px;
+        border-bottom: 4px solid;
+        margin-right: 4px;
+    }
+
+    #guessedWordBox {
+        width: 32px;
+        height: 32px;
+        border-bottom: 4px solid black;
+        margin-right: 9px;
+        font-size: 30px;
+    }
+
+    #stick1{
+        width: 400px;
+        height: 20px;
+        border-radius: 10px;
+        background: #FF9243;
+        position: absolute;
+        bottom: 35px;
+    }
+    #stick2{
+        width:320px;
+        height: 20px;
+        background: #C81D2A;
+        position: absolute;
+        border-radius: 17px;
+        left: -25px;
+        margin-bottom: 0px;
+        transform: rotate(90deg);
+    }
+    #stick3{
+        width: 195px;
+        height: 20px;
+        border-radius: 15px;
+        background: #EC5637;
+        position: absolute;
+        top: 40px;
+        left: 125px;
+        z-index: 5;
+    }
+    #stick4{
+        width: 122px;
+        height: 20px;
+        border-radius: 15px;
+        background:#E72934 ;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 79px;
+        z-index: 8;
+        left: 113px;
+    }
+    #line1{
+        width:77px;
+        height: 9px;
+        transform: rotate(90deg);
+        top: 65px;
+        border-radius:5px ;
+        background: #592600;
+        z-index: 8;
+        margin-left: 65px;
+        position: absolute;
+    }
+    #circle{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 102px;
+        margin-left: 65px;
+        border-radius: 50%;
+        border: 7.5px solid #000000;
+        z-index: 10;
+    }
+    #line2{
+        width:97px;
+        height: 7.5px;
+        position: absolute;
+        transform: rotate(90deg);
+        background: black;
+        border-radius: 5px;
+        margin-left: 65px;
+        margin-top: 18px;
+    }
+    #line3{
+        width: 60px;
+        height: 7.5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(35deg);
+        margin-top: -40px;
+        margin-left: 15px;
+    }
+    #line4{
+        width: 60px;
+        height: 7.5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(-35deg);
+        margin-top: -40px;
+        margin-left: 110px;
+    }
+    #line5{
+        width: 80px;
+        height: 7.5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 114px;
+        margin-left: 18px;
+        transform: rotate(-55deg);
+    }
+
+    #line6{
+        width: 80px;
+        height: 7.5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 114px;
+        margin-left: 112px;
+        transform: rotate(55deg);
+    }
+
+    #face{
+        width: 75px;
+        height: 75px;
+        margin-top: -2px;
+        position: absolute;
+        top: 100px;
+        margin-left: 65px;
+    }
+    .status {
+        width: 380px;
+        height: 200px;
+        top: 200px;
+        border-radius: 20px;
+    }
+
+    .status h2 {
+        font-size: 32px;
+    }
+
+    .status button {
+        width: 170px;
+        height: 47px;
+        border-radius: 18px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .main {
+        height: 120vh;
+    }
+
+    .hang-board {
+        width: 56%;
+        height: 89%;
+        outline: 10px solid #975A99;
+        border-radius: 28px;
+    }
+
+    .hang-stick {
+        width: 100%;
+        height: 53%;
+    }
+
+    .guessWord {
+        width: 100%;
+        height: 9%;
+    }
+
+    .keyboard {
+        width: 100%;
+        height: 30%;
+        padding: 0 22px;
+    }
+
+    .key {
+        width: 42px;
+        height: 42px;
+        font-size: 32px;
+        margin-top: 7px;
+    }
+
+    .key section {
+        width: 50px;
+        height: 4.7px;
+    }
+
+    #wordBox {
+        width: 33px;
+        height: 33px;
+        border-bottom: 4px solid;
+        margin-right: 4px;
+    }
+
+    #guessedWordBox {
+        width: 32px;
+        height: 32px;
+        border-bottom: 4px solid black;
+        margin-right: 9px;
+        font-size: 30px;
+    }
+
+    #stick1{
+        width: 350px;
+        height: 20px;
+        border-radius: 10px;
+        background: #FF9243;
+        position: absolute;
+        bottom: 35px;
+    }
+    #stick2{
+        width:320px;
+        height: 20px;
+        background: #C81D2A;
+        position: absolute;
+        border-radius: 17px;
+        left: 0px;
+        margin-bottom: 30px;
+        transform: rotate(90deg);
+    }
+    #stick3{
+        width:200px;
+        height: 20px;
+        border-radius: 15px;
+        background: #EC5637;
+        position: absolute;
+        top: 5px;
+        left: 150px;
+        z-index: 5;
+    }
+    #stick4{
+        width: 122px;
+        height: 20px;
+        border-radius: 15px;
+        background:#E72934 ;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 45px;
+        z-index: 8;
+        left: 138px;
+    }
+    #line1{
+        width:80px;
+        height: 8px;
+        transform: rotate(90deg);
+        top: 35px;
+        border-radius:5px ;
+        background: #592600;
+        z-index: 8;
+        margin-left: 65px;
+        position: absolute;
+    }
+    #circle{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 75px;
+        margin-left: 65px;
+        border-radius: 50%;
+        border: 6px solid #000000;
+        z-index: 10;
+    }
+    #line2{
+        width:87px;
+        height: 6px;
+        position: absolute;
+        transform: rotate(90deg);
+        background: black;
+        border-radius: 5px;
+        margin-left: 65px;
+        margin-top: -5px;
+    }
+    #line3{
+        width: 55px;
+        height: 6px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(35deg);
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+    #line4{
+        width: 55px;
+        height: 6px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(-35deg);
+        margin-top: -50px;
+        margin-left: 110px;
+    }
+    #line5{
+        width: 70px;
+        height:6px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 114px;
+        margin-left: 28px;
+        transform: rotate(-55deg);
+    }
+
+    #line6{
+        width: 70px;
+        height: 6px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 114px;
+        margin-left: 100px;
+        transform: rotate(55deg);
+    }
+
+    #face{
+        width: 60px;
+        height: 60px;
+        margin-top: -2px;
+        position: absolute;
+        top: 78px;
+        margin-left: 65px;
+    }
+    .status {
+        width: 340px;
+        height: 175px;
+        top: 255px;
+        border-radius: 18px;
+    }
+
+    .status h2 {
+        font-size: 25px;
+    }
+
+    .status button {
+        width: 140px;
+        height: 40px;
+        border-radius: 12px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .main {
+        height: 100vh;
+    }
+
+    .hang-board {
+        width: 60%;
+        height: 88%;
+        outline: 7px solid #975A99;
+        border-radius: 20px;
+    }
+
+    .hang-stick {
+        width: 100%;
+        height: 53%;
+    }
+
+    .guessWord {
+        width: 100%;
+        height: 9%;
+    }
+
+    .keyboard {
+        width: 100%;
+        height: 30%;
+        padding: 0 22px;
+    }
+
+    .key {
+        width: 32px;
+        height: 32px;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+
+    .key section {
+        width: 30px;
+        height: 3.5px;
+    }
+
+    #wordBox {
+        width: 28px;
+        height: 28px;
+        border-bottom: 3px solid;
+        margin-right: 7px;
+    }
+
+    #guessedWordBox {
+        width: 28px;
+        height: 28px;
+        border-bottom: 3px solid black;
+        margin-right: 7px;
+        font-size: 20px;
+    }
+
+    #stick1{
+        width: 300px;
+        height: 14px;
+        border-radius: 5px;
+        background: #FF9243;
+        position: absolute;
+        bottom: 15px;
+    }
+    #stick2{
+        width:250px;
+        height: 14px;
+        background: #C81D2A;
+        position: absolute;
+        border-radius: 5px;
+        left: -15px;
+        margin-bottom: 5px;
+        transform: rotate(90deg);
+    }
+    #stick3{
+        width:140px;
+        height: 14px;
+        border-radius:5px;
+        background: #EC5637;
+        position: absolute;
+        top: 22px;
+        left: 103px;
+        z-index: 5;
+    }
+    #stick4{
+        width: 90px;
+        height: 14px;
+        border-radius: 15px;
+        background:#E72934 ;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 50px;
+        z-index: 8;
+        left: 92px;
+    }
+    #line1{
+        width:65px;
+        height: 5px;
+        transform: rotate(90deg);
+        top: 42px;
+        border-radius:5px ;
+        background: #592600;
+        z-index: 8;
+        margin-left: 15px;
+        position: absolute;
+    }
+    #circle{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 75px;
+        margin-left: 15px;
+        border-radius: 50%;
+        border: 4px solid #000000;
+        z-index: 10;
+    }
+    #line2{
+        width:77px;
+        height: 5px;
+        position: absolute;
+        transform: rotate(90deg);
+        background: black;
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-top: 22px;
+    }
+    #line3{
+        width: 45px;
+        height: 5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(35deg);
+        margin-top: -25px;
+        margin-left: -20px;
+    }
+    #line4{
+        width: 45px;
+        height: 5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(-35deg);
+        margin-top: -25px;
+        margin-left: 50px;
+    }
+    #line5{
+        width: 55px;
+        height:5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 76px;
+        margin-left: -15px;
+        transform: rotate(-55deg);
+    }
+
+    #line6{
+        width: 55px;
+        height: 5px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 76px;
+        margin-left: 45px;
+        transform: rotate(55deg);
+    }
+
+    #face{
+        width: 45px;
+        height: 45px;
+        margin-top: -2px;
+        position: absolute;
+        top: 78px;
+        margin-left: 17px;
+    }
+    .status {
+        width: 340px;
+        height: 175px;
+        top: 255px;
+        border-radius: 18px;
+    }
+
+    .status h2 {
+        font-size: 25px;
+    }
+
+    .status button {
+        width: 140px;
+        height: 40px;
+        border-radius: 12px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+    .main {
+        height: 100vh;
+    }
+
+    .hang-board {
+        width: 70%;
+        height: 75%;
+        outline: 4px solid #975A99;
+        border-radius: 15px;
+    }
+
+    .hang-stick {
+        width: 100%;
+        height: 53%;
+    }
+
+    .guessWord {
+        width: 100%;
+        height: 9%;
+    }
+
+    .keyboard {
+        width: 100%;
+        height: 30%;
+        padding: 0 12px;
+    }
+
+    .key {
+        width: 27px;
+        height: 27px;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+
+    .key section {
+        width: 20px;
+        height: 3px;
+    }
+
+    #wordBox {
+        width: 22px;
+        height: 22px;
+        border-bottom: 2px solid;
+        margin-right: 5px;
+    }
+    .word_hidden{
+        margin-top: 25px;
+    }
+    #guessedWordBox {
+        width: 22px;
+        height: 22px;
+        border-bottom: 2px solid black;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+    #stick1{
+        width: 200px;
+        height: 11px;
+        border-radius: 5px;
+        background: #FF9243;
+        position: absolute;
+        bottom: 10px;
+    }
+    #stick2{
+        width:220px;
+        height: 11px;
+        background: #C81D2A;
+        position: absolute;
+        border-radius: 5px;
+        left: 12px;
+        margin-bottom: -10px;
+        transform: rotate(90deg);
+    }
+    #stick3{
+        width:135px;
+        height: 11px;
+        border-radius:5px;
+        background: #EC5637;
+        position: absolute;
+        top: 15px;
+        left: 115px;
+        z-index: 5;
+    }
+    #stick4{
+        width: 100px;
+        height: 11px;
+        border-radius: 15px;
+        background:#E72934 ;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 50px;
+        z-index: 8;
+        left: 105px;
+    }
+    #line1{
+        width:55px;
+        height: 4px;
+        transform: rotate(90deg);
+        top: 32px;
+        border-radius:5px ;
+        background: #592600;
+        z-index: 8;
+        margin-left: 90px;
+        position: absolute;
+    }
+    #circle{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 58px;
+        margin-left: 90px;
+        border-radius: 50%;
+        border: 4px solid #000000;
+        z-index: 10;
+    }
+    #line2{
+        width:80px;
+        height: 4px;
+        position: absolute;
+        transform: rotate(90deg);
+        background: black;
+        border-radius: 5px;
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+    #line3{
+        width: 40px;
+        height: 4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(35deg);
+        margin-top: 5px;
+        margin-left: 55px;
+    }
+    #line4{
+        width: 40px;
+        height: 4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(-35deg);
+        margin-top: 5px;
+        margin-left: 125px;
+    }
+    #line5{
+        width: 50px;
+        height:4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 46px;
+        margin-left: 62px;
+        transform: rotate(-55deg);
+    }
+
+    #line6{
+        width: 50px;
+        height: 4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 46px;
+        margin-left: 120px;
+        transform: rotate(55deg);
+    }
+
+    #face{
+        width: 48px;
+        height: 48px;
+        margin-top: -2px;
+        position: absolute;
+        top: 60px;
+        margin-left: 90px;
+    }
+    .status {
+        width: 280px;
+        height: 145px;
+        top: 300px;
+        border-radius: 18px;
+    }
+
+    .status h2 {
+        font-size: 20px;
+    }
+
+    .status button {
+        width: 110px;
+        height: 32px;
+        border-radius: 9px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .main {
+        height: 100vh;
+    }
+
+    .hang-board {
+        width: 80%;
+        height: 75%;
+        outline: 5px solid #975A99;
+        border-radius: 0px!important;
+    }
+
+    .hang-stick {
+        width: 100%;
+        height: 53%;
+    }
+
+    .guessWord {
+        width: 100%;
+        height: 9%;
+    }
+
+    .keyboard {
+        width: 100%;
+        height: 30%;
+        padding: 0 12px;
+    }
+
+    .key {
+        width: 27px;
+        height: 27px;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+
+    .key section {
+        width: 20px;
+        height: 3px;
+    }
+
+    #wordBox {
+        width: 22px;
+        height: 22px;
+        border-bottom: 2px solid;
+        margin-right: 5px;
+    }
+    .word_hidden{
+        margin-top: 25px;
+    }
+    #guessedWordBox {
+        width: 22px;
+        height: 22px;
+        border-bottom: 2px solid black;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+    #stick1{
+        width: 200px;
+        height: 11px;
+        border-radius: 5px;
+        background: #FF9243;
+        position: absolute;
+        bottom: 10px;
+    }
+    #stick2{
+        width:220px;
+        height: 11px;
+        background: #C81D2A;
+        position: absolute;
+        border-radius: 5px;
+        left: 12px;
+        margin-bottom: -10px;
+        transform: rotate(90deg);
+    }
+    #stick3{
+        width:135px;
+        height: 11px;
+        border-radius:5px;
+        background: #EC5637;
+        position: absolute;
+        top: 15px;
+        left: 115px;
+        z-index: 5;
+    }
+    #stick4{
+        width: 100px;
+        height: 11px;
+        border-radius: 15px;
+        background:#E72934 ;
+        position: absolute;
+        transform: rotate(-45deg);
+        top: 50px;
+        z-index: 8;
+        left: 105px;
+    }
+    #line1{
+        width:55px;
+        height: 4px;
+        transform: rotate(90deg);
+        top: 32px;
+        border-radius:5px ;
+        background: #592600;
+        z-index: 8;
+        margin-left: 90px;
+        position: absolute;
+    }
+    #circle{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 58px;
+        margin-left: 90px;
+        border-radius: 50%;
+        border: 4px solid #000000;
+        z-index: 10;
+    }
+    #line2{
+        width:80px;
+        height: 4px;
+        position: absolute;
+        transform: rotate(90deg);
+        background: black;
+        border-radius: 5px;
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+    #line3{
+        width: 40px;
+        height: 4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(35deg);
+        margin-top: 5px;
+        margin-left: 55px;
+    }
+    #line4{
+        width: 40px;
+        height: 4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform: rotate(-35deg);
+        margin-top: 5px;
+        margin-left: 125px;
+    }
+    #line5{
+        width: 50px;
+        height:4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 46px;
+        margin-left: 62px;
+        transform: rotate(-55deg);
+    }
+
+    #line6{
+        width: 50px;
+        height: 4px;
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        bottom: 46px;
+        margin-left: 120px;
+        transform: rotate(55deg);
+    }
+
+    #face{
+        width: 48px;
+        height: 48px;
+        margin-top: -2px;
+        position: absolute;
+        top: 60px;
+        margin-left: 90px;
+    }
+    .status {
+        width: 280px;
+        height: 145px;
+        top: 300px;
+        border-radius: 18px;
+    }
+
+    .status h2 {
+        font-size: 20px;
+    }
+
+    .status button {
+        width: 110px;
+        height: 32px;
+        border-radius: 9px;
+        font-size: 9px;
+    }
+}
